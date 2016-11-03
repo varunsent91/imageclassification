@@ -6,7 +6,7 @@ import networkx as nx
 import matplotlib.pyplot as plt
 
 
-arr = pd.read_csv("image.deep.fea",delim_whitespace=True, header = None)
+arr = pd.read_csv("image",delim_whitespace=True, header = None)
 rows = 50
 
 g = nx.Graph()
